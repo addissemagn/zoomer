@@ -1,29 +1,38 @@
 # Zoomer
-a fun lil bot for zoom.
+> :robot: fun lil AI bot to attend your Zoom calls for you.
 
-### Setup
-Clone repo and open directory
-```
+<!--
+## Features
+Try having a conversation with Zoomer!
+* 
+If you're thinking of something interesting that Zoomer could be able to do, feel free to open an issue!
+-->
+
+## Usage
+Clone repository and open directory.
+```sh
 $  git clone git@github.com:addissemagn/zoomer.git && cd zoomer
 ```
 
-You need NodeJs and npm installed. 
-
-Install web server:
+Install dependencies:
+```sh
+$ sudo npm install syllable
 ```
+
+Run a local https server however you'd like. This method requires NodeJs and npm.
+```sh
+# Install
 $ sudo npm i -g local-web-server
+
+# Run
+$ ws --https
 ```
 
-Run server:
-```
-$ ws
-```
+Check it out at https://localhost:8000 :)
 
-If error that node version is not up to date, update node and try again:
-```
+#### Troubleshooting
+If Node version is not up to date, update to the latest stable version.
+```sh
 $ sudo npm install -g n
 $ sudo n stable
-$ ws
 ```
-
-Check it out at http://localhost:8000 :)
