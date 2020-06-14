@@ -28,7 +28,7 @@ $ sudo npm i -g local-web-server
 $ ws --https
 ```
 
-Check it out at https://localhost:8000 :)
+Check it out at https://localhost:8000.
 
 #### Troubleshooting
 If Node version is not up to date, update to the latest stable version.
